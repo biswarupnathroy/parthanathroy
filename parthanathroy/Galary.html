@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+        }
+        .Galaryimg{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-image: url(htmlpic/img100.jpg);
+            background-size: cover;
+            background-clip:content-box;
+        }
+        /* img{
+            width: 100vw;
+            height: 100vh;
+            
+        } */
+        #back{
+            background-color: blue;
+            border-style: none;
+            width: 8vw;
+            border-radius: 2vw;
+            /* transform: translate(2px, 5px); */
+            transform: translate(30vw, 17vw);
+
+            
+        }
+        #back:active{
+            transition-duration: 1s;
+            animation-duration: 1s;
+            background-color: green;
+            width: 9vw;
+            /* height: ; */
+        }
+    </style>
+</head>
+<body>
+    <div class="Galaryimg">
+        <h1>www.html.com</h1>
+        <a href="image.html"><button type="button" id="back">Back</button></a>
+        
+    </div>
+</body>
+</html>

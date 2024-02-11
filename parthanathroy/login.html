@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .form {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            background-image: url(htmlpic/img102.jpg);
+            height: 100vh;
+            background-size: cover;
+
+
+        }
+
+        .form table td[colspan="2"] {
+            text-align: center;
+        }
+
+        .loginname {
+            color: #54bdf0;
+        }
+
+        #enterid {
+            color: white;
+        }
+
+        #enterpass {
+            color: white;
+        }
+
+        #myid {
+
+            /* width: 16vw;
+            height: 2vw; */
+            width: 29vw;
+            height: 5vw;
+
+            padding-inline: 1vw;
+            border-radius: 0%;
+            border: 0.6vh solid gray;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-radius: 0.6vw;
+            border-style: solid;
+            border-inline-start-style: solid;
+            border-inline-start-color: #3f2ad5;
+            border-inline-end-color: green;
+            border-block-start-color: yellow;
+            border-block-end-color: brown;
+            background-color: #ccbcbc;
+        }
+
+        #mypassword {
+            /* width: 16vw;
+            height: 2vw; */
+            width: 29vw;
+            height: 5vw;
+
+            padding-inline: 1vw;
+            border-radius: 0%;
+            border: 0.6vh solid gray;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-radius: 0.6vw;
+            border-style: solid;
+            border-inline-start-style: solid;
+            border-inline-start-color: #3f2ad5;
+            border-inline-end-color: green;
+            border-block-start-color: yellow;
+            border-block-end-color: brown;
+            background-color: #ccbcbc;
+        }
+
+        #back a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <form>
+            <table>
+                <tr>
+                    <td colspan="2" class="loginname">
+                        <h1>Login Page</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="myid" id="enterid">Enter Your ID here:</label></td>
+                    <td><input type="text" placeholder="Enter your id here" id="myid"></td>
+                </tr>
+                <tr>
+                    <td><label for="password" id="enterpass">Enter your Password Here:</label></td>
+                    <td><input type="password" placeholder="Enter your password here" id="mypassword"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <button type="reset" value="sebmit" id="submit">submit</button>
+                        <input type="reset" value="reset" id="reset">
+                        <!-- <a href="f5.html" ><button type="button" id="back">Back</button></a> -->
+                        <a href="f4.html"><button type="button" id="back">Back</button></a>
+                        <!--<a href="heading.html" target="f2"> <button type="button" id="backToHeading"><b>Undo</b></button></a>-->
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
